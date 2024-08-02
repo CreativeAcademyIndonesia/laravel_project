@@ -1,0 +1,12 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.breadcrumbs-active, .breadcrumbs>ul>li:last-child {
+    --tw-text-opacity: 1;
+    color: #c6c6c6
+  }
